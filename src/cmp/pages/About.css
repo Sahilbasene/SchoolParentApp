@@ -1,0 +1,92 @@
+.about-td {
+    text-align: left;
+  }
+   
+  .about-td h2 {
+    font-size: 24px;
+    color: #333;
+  }
+   
+  .image-container1 {
+    text-align: center;
+    margin-bottom: 10px;
+   
+  }
+   
+  .image-container1 img {
+    max-width: 80%;
+    height: auto;
+   
+  }
+   
+  .about-container {
+    padding: 20px;
+  }
+   
+  .image-text-container {
+    overflow: hidden; /* Clear floats */
+    margin-bottom: 20px;
+  }
+   
+  .image-container2 {
+    float: left; /* Float the image to the left */
+    margin-right: 20px; /* Margin to prevent text from clashing */
+  }
+   
+  .image-container2 img {
+    width: 350px; /* Set a max width for the image */
+    height: 200px;
+  }
+   
+  .text-container {
+    overflow: hidden; /* Clear floats */
+  }
+   
+  .image-text-container p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: black;
+  }
+   
+  .image-container3 {
+    float: right; /* Float the image to the right */
+    margin-left: 20px; /* Margin to prevent text from clashing */
+  }
+   
+  .image-container3 img {
+    max-width: 300px; /* Set a max width for the image */
+    height: auto;
+    display: block;
+  }
+   
+  .contact-us-container {
+    height: 250px;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #203A5B;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+   
+  .contact-us-container h3 {
+    margin-top: 0;
+    color: #ffffff;
+    text-align: left;
+  }
+   
+  .contact-us-container ul {
+    list-style-type: none;
+    padding: 0;
+    color: #ffffff;
+  }
+   
+  .contact-us-container li {
+    margin-bottom: 10px;
+   
+  }
+  .logo{
+    box-sizing: border-box;
+    padding-left: 10px;
+   
+  }
+  

@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 import "./Home.css";
 // import Logo from "./logo234.png";
  
-const slideImages =
-  "https://www.greatschools.org/gk/wp-content/uploads/2014/03/The-school-visit-what-to-look-for-what-to-ask-1-750x325.jpg";
+//const slideImages =
+  //"https://www.greatschools.org/gk/wp-content/uploads/2014/03/The-school-visit-what-to-look-for-what-to-ask-1-750x325.jpg";
  
 // const logoUrl =
 //   "http://www.connectustech.com/wp-content/uploads/2021/01/connectusschool-app-for-parents.png";
@@ -81,7 +81,7 @@ export const Home = ({ setRegistrationId, registrationId }) => {
       </div>
       <div className="main-page-container">
         <div className="slide-container">
-          <img src={slideImages} alt="slide" />
+        <img src="/slide-image.png" height="350" width="650" alt="slide" />
         </div>
         <div className="main-container">
           <div className="login-container">
