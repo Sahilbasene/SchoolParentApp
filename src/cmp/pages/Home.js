@@ -70,15 +70,15 @@ export const Home = ({ setRegistrationId, registrationId }) => {
  
   return (
     <>
-      <div className="header-container">
+      {/* <div className="header-container">
         <div className="logo-container">
           <img src="/logo234.png" width="100" height="100" alt="Logo" />
-          {/* <MyLogo /> */}
+         
         </div>
         <div className="school-name">
           <h1 className="heading-title">School Parent App</h1>
         </div>
-      </div>
+      </div> */}
       <div className="main-page-container">
         <div className="slide-container">
         <img src="/slide-image.png" height="350" width="650" alt="slide" />

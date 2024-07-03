@@ -18,6 +18,12 @@ export default function () {
         <span></span>
       </div>
       <ul className={menuOpen ? "open" : ""}>
+      <li>
+            {/* <div class="logo"> */}
+                <img src="/logo234.png" width="60" height="50" alt="DummyImage1" />
+            {/* </div> */}
+        </li>
+        
         <li>
           <NavLink exact to="/" activeClassName="active">
             Home
@@ -38,12 +44,15 @@ export default function () {
             FeeDetails
           </NavLink>
         </li>
+       
         {isParentDashboard && ( // Only show "Circular" link on ParentDashboard page
           <li>
             <NavLink to="/circular" activeClassName="active">
               Circular
             </NavLink>
           </li>
+          
+          
         )}
       </ul>
       {/* <ul>

@@ -3,13 +3,22 @@
   }
    
   nav {
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
     align-items: center;
     background-color: #f3f4f5;
     color: rgba(6, 0, 0, 0.84);
     position: sticky;
     top: 0;
+    
+  }
+
+  
+
+  nav img {
+    box-sizing: border-box;
+    float: right;
+   
   }
    
   nav .title {
@@ -22,6 +31,8 @@
    
   nav ul {
     display: flex;
+    padding-left: 1rem;
+    
   }
    
   nav ul li {

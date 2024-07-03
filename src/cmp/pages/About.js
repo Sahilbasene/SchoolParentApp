@@ -18,9 +18,7 @@ function About({ title, description }) {
     </div>
   );
 }
-{/* <div class="logo">
-<img src="/logo234.png" width="100" height="100" alt="DummyImage1" />
-</div> */}
+
 About.propTypes = {
  
   description: PropTypes.string.isRequired,

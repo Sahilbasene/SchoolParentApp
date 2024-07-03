@@ -14,7 +14,7 @@
   }
    
   .image-container1 img {
-    max-width: 80%;
+    max-width: 90%;
     height: auto;
    
   }
@@ -34,8 +34,8 @@
   }
    
   .image-container2 img {
-    width: 350px; /* Set a max width for the image */
-    height: 200px;
+    max-width: 100%; /* Set a max width for the image */
+    height: auto;
   }
    
   .text-container {
@@ -43,7 +43,8 @@
   }
    
   .image-text-container p {
-    font-size: 20px;
+    font-size: 18px;
+    text-align: left;
     line-height: 1.5;
     color: black;
   }
@@ -82,11 +83,6 @@
    
   .contact-us-container li {
     margin-bottom: 10px;
-   
-  }
-  .logo{
-    box-sizing: border-box;
-    padding-left: 10px;
    
   }
   
